@@ -1,0 +1,22 @@
+---
+title: "README"
+author: "Milan Chua"
+date: "January 19, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+This is the course project for the Getting and Cleaning Data module for the Data Science class in Coursera. The ```run_analysis.R``` is able to do the following:
+
+1. Downloads and unzips the data set files
+
+2. Reads the data set tables and merges them
+
+3. Extracts the measurements on the mean and standard deviation for each measurements
+
+4. Use descriptive activity names to name the activities in the data set
+
+5. Creates a second tidy data set with the average of each variable for each activity and each subject
